@@ -170,12 +170,12 @@ export default class G extends Component {
                         hideOnOverlayClicked ref={ref => this.specThanks = ref}
                         title="This website would not have been possible without:">
                     <section>
-                        <p>React.js<br/><a href="https://reactjs.org/" target="_blank">https://reactjs.org/</a></p>
-                        <p>npm<br/><a href="https://www.npmjs.com/" target="_blank">https://www.npmjs.com/</a></p>
-                        <p>FlexView<br/><a href="https://github.com/buildo/react-flexview" target="_blank">https://github.com/buildo/react-flexview</a></p>
-                        <p>Pure React Carousel<br/><a href="https://www.npmjs.com/package/pure-react-carousel" target="_blank">https://www.npmjs.com/package/pure-react-carousel</a></p>
-                        <p>SkyLight<br/><a href="https://marcio.github.io/react-skylight/" target="_blank">https://marcio.github.io/react-skylight/</a></p>
-                        <p>Scrollbar<br/><a href="https://www.npmjs.com/package/react-scrollbar" target="_blank">https://www.npmjs.com/package/react-scrollbar</a></p>
+                        <p>React.js<br/><a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">https://reactjs.org/</a></p>
+                        <p>npm<br/><a href="https://www.npmjs.com/" target="_blank" rel="noopener noreferrer">https://www.npmjs.com/</a></p>
+                        <p>FlexView<br/><a href="https://github.com/buildo/react-flexview" target="_blank" rel="noopener noreferrer">https://github.com/buildo/react-flexview</a></p>
+                        <p>Pure React Carousel<br/><a href="https://www.npmjs.com/package/pure-react-carousel" target="_blank" rel="noopener noreferrer">https://www.npmjs.com/package/pure-react-carousel</a></p>
+                        <p>SkyLight<br/><a href="https://marcio.github.io/react-skylight/" target="_blank" rel="noopener noreferrer">https://marcio.github.io/react-skylight/</a></p>
+                        <p>Scrollbar<br/><a href="https://www.npmjs.com/package/react-scrollbar" target="_blank" rel="noopener noreferrer">https://www.npmjs.com/package/react-scrollbar</a></p>
                     </section>
                 </SkyLight>
             </div>
