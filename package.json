@@ -2,7 +2,7 @@
   "name": "react-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gabrielgruter.github.io/react-to-gabe/",
+  "homepage": "https://gabrielgruter.github.io",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "pure-react-carousel": "https://github.com/gabrielgruter/pure-react-carousel-nofocus/tarball/master",

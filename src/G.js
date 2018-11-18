@@ -102,7 +102,7 @@ export default class G extends Component {
                                         <FlexView column vAlignContent='center'>
                                             <a>Contact</a>
                                             <h1>FAST. <br/> RESPONSIVE.</h1>
-                                            <p>Feel free to contact me anytime at:<br/><a href="mailto:gabriel.gruter@gmail.com" style={emailStyle}>gabriel.gruter@gmail.com</a></p>
+                                            <p>Feel free to contact me anytime at:<br/><a href="mailto:contact@gabrielgruter.com" style={emailStyle}>contact@gabrielgruter.com</a></p>
                                         </FlexView>
                                     </section>
                                 </section>
