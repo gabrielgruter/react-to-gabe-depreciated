@@ -175,7 +175,7 @@ export default class G extends Component {
                         <p>FlexView<br/><a href="https://github.com/buildo/react-flexview" target="_blank">https://github.com/buildo/react-flexview</a></p>
                         <p>Pure React Carousel<br/><a href="https://www.npmjs.com/package/pure-react-carousel" target="_blank">https://www.npmjs.com/package/pure-react-carousel</a></p>
                         <p>SkyLight<br/><a href="https://marcio.github.io/react-skylight/" target="_blank">https://marcio.github.io/react-skylight/</a></p>
-                        <p>Scrollbar<br/><a href="https://www.npmjs.com/package/react-scrollbar" target="_blank">https://marcio.github.io/react-skylight/</a></p>
+                        <p>Scrollbar<br/><a href="https://www.npmjs.com/package/react-scrollbar" target="_blank">https://www.npmjs.com/package/react-scrollbar</a></p>
                     </section>
                 </SkyLight>
             </div>
