@@ -7,6 +7,7 @@ React.js: https://reactjs.org/
 npm: https://www.npmjs.com/  
 FlexView: https://github.com/buildo/react-flexview  
 Pure React Carousel: https://www.npmjs.com/package/pure-react-carousel  
+(using my modified version https://github.com/gabrielgruter/pure-react-carousel-nofocus to remove the ugly blue focus ring)
 React Router: https://reacttraining.com/react-router/
 
 #### Honorable Mentions
