@@ -1,5 +1,5 @@
 # react-to-gabe
-My portfolio, cv and personal website
+My portfolio, cv and personal website as a single page react site
 
 ## Special Thanks
 
