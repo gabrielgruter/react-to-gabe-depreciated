@@ -125,7 +125,7 @@ export default class G extends Component {
                                             <FlexView column vAlignContent='center'>
                                                 <a>Contact</a>
                                                 <h1>FAST. <br /> RESPONSIVE.</h1>
-                                                <p>Feel free to contact me anytime at:<br /><a href="mailto:contact@gabrielgruter.com" style={emailStyle}>contact@gabrielgruter.com</a></p>
+                                                <p>Feel free to contact me anytime at:<br /><a href="mailto:contact@gabrielgruter.com" style={emailStyle}>contact@gabrielgruter.com</a><br/>Or snoop into this site's <a href="https://github.com/gabrielgruter/react-to-gabe" target="__blank">source code</a></p>
                                             </FlexView>
                                         </section>
                                     </section>
