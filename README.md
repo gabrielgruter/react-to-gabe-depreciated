@@ -1,4 +1,4 @@
-## react-to-gabe
+# react-to-gabe
 My portfolio, cv and personal website
 
 ## Special Thanks
