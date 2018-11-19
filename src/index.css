@@ -83,15 +83,6 @@ body {
   width: 45vw;
 }
 
-.portfolioButton {
-  width: 15vw;
-  height: 15vw;
-  margin: 1vw;
-  background: none;
-  border: none;
-  font-family: "Roboto";
-  font-weight: bold;
-}
-.portfolioButton:hover {
-  font-weight: 100;
+.specialThanks {
+  font-size: 0.7vw;
 }

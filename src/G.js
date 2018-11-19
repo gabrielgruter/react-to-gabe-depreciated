@@ -41,11 +41,10 @@ export default class G extends Component {
             margin: "0",
         }
         const portfolioStyle = {
-            width: "75vw",
-            height: "100vh",
-            padding: "0",
-            marginLeft: "-37.5vw",
-            marginTop: "-50vh",
+            width: "25vw",
+            height: "50vh",
+            marginLeft: "-12.5vw",
+            marginTop: "-25vh",
         }
         return (
             <div id="page">
@@ -90,7 +89,7 @@ export default class G extends Component {
                                             <FlexView column vAlignContent='center'>
                                                 <a>Qualifications &amp; CV</a>
                                                 <h1>ADOBE SUITE. <br /> REACT, NODE, ANDROID, iOS.</h1>
-                                                <p>Not the average undergrad.<br />1 year of industry experience with yvySolutions. Creating, working on and maintaining android/iOS apps as a web/app developer alongside my undergradude studies.<a style={readMore} href="/CV.pdf" target="_blank"> read more...</a></p>
+                                                <p>Not the average undergrad.<br />1 year of industry experience with yvySolutions. Creating, working on and maintaining android/iOS apps as a web/app developer alongside my undergradude studies.<a style={readMore} href="/CV.pdf" target="_blank"> See CV...</a></p>
                                             </FlexView>
                                         </section>
                                     </section>
@@ -120,74 +119,22 @@ export default class G extends Component {
                                 <Dot slide={2} style={Object.assign({}, dotStyle, buttonStripper)}><a>Qualifications &amp; CV</a></Dot>
                                 <a>&ensp;|&ensp;</a>
                                 <Dot slide={3} style={Object.assign({}, dotStyle, buttonStripper)}><a>Contact</a></Dot>
-                                <button style={buttonStripper} onClick={() => this.specThanks.show()}>Special Thanks</button>
+                                <button style={buttonStripper} onClick={() => this.specThanks.show()}><a className="specialThanks">Special Thanks</a></button>
                             </section>
                         </FlexView>
                     </FlexView>
                 </CarouselProvider>
-                <CarouselProvider
-                    naturalSlideWidth={1000}
-                    naturalSlideHeight={1000}
-                    totalSlides={2}>
-                    <SkyLight hideOnOverlayClicked dialogStyles={portfolioStyle} ref={ref => this.portfolioPop = ref}>
-                        <Dot slide={0}><a>Page 1</a></Dot>
-                        <Dot slide={1}><a>Worldy</a></Dot>
-                        <Slider>
-                            <Slide index={0}>
-                                <p>Page 1</p>
-                            </Slide>
-                            <Slide index={1}>
-                                <FlexView column
-                                    hAlignContent="center"
-                                    height="100vh">
-                                    <ScrollArea className="portfolioBox" horizontal="false">
-                                        <FlexView column hAlignContent="center">
-                                            <img src={WorldlyTitle} style={{ width: "25vw" }} alt="Worldly" />
-                                        </FlexView>
-                                        <FlexView
-                                            column
-                                            hAlignContent="left"
-                                            marginRight="10vw"
-                                            marginLeft="10vw">
-                                            <h2>Main Objective:</h2>
-                                            <p>To design a mobile news application aimed at a younger demographic (age 18 – 25).</p>
-                                            <h2>Tools</h2>
-                                            <ul>
-                                                <li>Adobe Illustrator</li>
-                                                <li>Sketch (MacOS), Lunacy (Windows)</li>
-                                            </ul>
-                                            <h2>Logo</h2>
-                                            <p>A minimalistic earth was designed because it is a unique design (easy to distinguish in a sea of apps) but also very recognisable to most people.</p>
-                                        </FlexView>
-                                        <FlexView column hAlignContent="center">
-                                            <img src={WorldlyComb} style={{ width: "25vw" }} alt="WorldlyComb" />
-                                        </FlexView>
-                                        <FlexView
-                                            column
-                                            hAlignContent="left"
-                                            marginRight="10vw"
-                                            marginLeft="10vw">
-                                            <p>Within the logo and throughout the app I use a blue-green analagous colour scheme because of the relaxing and harmonising effect it creates resulting from it's natural appearence nature. The sans-serif font user helps the user read long bodies of text, a serif font is used for the title to contrast from the main body.</p>
-                                        </FlexView>
-                                        <FlexView column hAlignContent="center">
-                                            <img src={WorldlyColour} style={{ width: "25vw" }} alt="WorldlyColour" />
-                                        </FlexView>
-                                    </ScrollArea>
-                                </FlexView>
-                            </Slide>
-                        </Slider>
-                    </SkyLight>
-                </CarouselProvider>
                 <SkyLight
                     hideOnOverlayClicked ref={ref => this.specThanks = ref}
-                    title="This website would not have been possible without:">
+                    dialogStyles={portfolioStyle}>
                     <section>
-                        <p>React.js<br /><a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">https://reactjs.org/</a></p>
-                        <p>npm<br /><a href="https://www.npmjs.com/" target="_blank" rel="noopener noreferrer">https://www.npmjs.com/</a></p>
-                        <p>FlexView<br /><a href="https://github.com/buildo/react-flexview" target="_blank" rel="noopener noreferrer">https://github.com/buildo/react-flexview</a></p>
-                        <p>Pure React Carousel<br /><a href="https://www.npmjs.com/package/pure-react-carousel" target="_blank" rel="noopener noreferrer">https://www.npmjs.com/package/pure-react-carousel</a></p>
-                        <p>SkyLight<br /><a href="https://marcio.github.io/react-skylight/" target="_blank" rel="noopener noreferrer">https://marcio.github.io/react-skylight/</a></p>
-                        <p>Scrollbar<br /><a href="https://www.npmjs.com/package/react-scrollbar" target="_blank" rel="noopener noreferrer">https://www.npmjs.com/package/react-scrollbar</a></p>
+                        <h1 style={{fontSize:"1vw"}}>This website would not have been possible without:</h1>
+                        <p style={{fontSize:"0.8vw"}}>React.js<br /><a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">https://reactjs.org/</a></p>
+                        <p style={{fontSize:"0.8vw"}}>npm<br /><a href="https://www.npmjs.com/" target="_blank" rel="noopener noreferrer">https://www.npmjs.com/</a></p>
+                        <p style={{fontSize:"0.8vw"}}>FlexView<br /><a href="https://github.com/buildo/react-flexview" target="_blank" rel="noopener noreferrer">https://github.com/buildo/react-flexview</a></p>
+                        <p style={{fontSize:"0.8vw"}}>Pure React Carousel<br /><a href="https://www.npmjs.com/package/pure-react-carousel" target="_blank" rel="noopener noreferrer">https://www.npmjs.com/package/pure-react-carousel</a></p>
+                        <p style={{fontSize:"0.8vw"}}>SkyLight<br /><a href="https://marcio.github.io/react-skylight/" target="_blank" rel="noopener noreferrer">https://marcio.github.io/react-skylight/</a></p>
+                        <p style={{fontSize:"0.8vw"}}>Scrollbar<br /><a href="https://www.npmjs.com/package/react-scrollbar" target="_blank" rel="noopener noreferrer">https://www.npmjs.com/package/react-scrollbar</a></p>
                     </section>
                 </SkyLight>
             </div>
