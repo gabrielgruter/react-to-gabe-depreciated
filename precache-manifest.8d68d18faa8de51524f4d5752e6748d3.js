@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/pizzaWebsite.2d524a2f.jpg"
   },
   {
-    "revision": "f64847ab2c983332d568",
-    "url": "/static/css/main.dcb892c2.chunk.css"
+    "revision": "15a5571ca2826abcdf35",
+    "url": "/static/css/main.5a9752ed.chunk.css"
   },
   {
     "revision": "b0e3c70650835578d29aeee2476b3882",
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/static/media/about.6125806b.jpg"
   },
   {
-    "revision": "f64847ab2c983332d568",
-    "url": "/static/js/main.f64847ab.chunk.js"
+    "revision": "15a5571ca2826abcdf35",
+    "url": "/static/js/main.15a5571c.chunk.js"
   },
   {
     "revision": "afd2fe42de2d7c0f0a29589d7b5b998e",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/static/css/1.dda5eb89.chunk.css"
   },
   {
-    "revision": "8994a8d74bc671cef9699590bdc44b5f",
+    "revision": "1c0aaf693329cc585510507a5dfd6200",
     "url": "/index.html"
   }
 ];
