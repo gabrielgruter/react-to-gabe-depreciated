@@ -8,6 +8,8 @@ import ScrollArea from 'react-scrollbar'
 
 import ImageAbout from './res/about.jpg'
 import ImagePortfolio from './res/portfolio.jpg'
+import PortfolioPizza from './res/portfolio/pizza website/pizzaWebsite.jpg'
+import PortfolioWorldly from './res/portfolio/worldly/worldlyCover.jpg'
 import ImageCV from './res/cv.jpg'
 import ImageContact from './res/contact.jpg'
 import WorldlyComb from './res/portfolio/worldly/worldlycomb.png'
@@ -19,24 +21,23 @@ import WorldlyColour from './res/portfolio/worldly/worldlycolours.png'
 const buttonStripper = {
     background: "none",
     border: "none",
-    fontFamily: "Roboto",
+    fontFamily: "inherit",
 }
 const readMore = {
     color: "var(--highlights)",
-    fontSize: "1vw",
-    fontFamily: "Roboto",
-    fontWeight: "300",
+    fontSize: "1.5vw",
+    fontFamily: "inherit",
+    fontWeight: "Bold",
     textDecoration: "none",
     cursor: "pointer",
 }
 const dotStyle = {
-    color: "white",
     fontSize: "2vw",
-    fontWeight: "100",
+    fontWeight: "bold",
 }
 const emailStyle = {
     fontSize: "2vw",
-    fontFamily: "Roboto",
+    fontFamily: "inherit",
     margin: "0",
 }
 const portfolioStyle = {
@@ -65,8 +66,8 @@ function PortfolioHome() {
 function PortfolioContent() {
     return (
         <section className="navSection">
-            <img src={ImageAbout} className="navImage" alt="aboutme" />
-            <img src={ImageAbout} className="navImage" alt="aboutme" />
+            <img src={PortfolioPizza} className="navImage" alt="aboutme" />
+            <img src={PortfolioWorldly} className="navImage" alt="aboutme" />
             <img src={ImageAbout} className="navImage" alt="aboutme" />
         </section>
     );
@@ -75,7 +76,7 @@ function PortfolioContent() {
 export default class G extends Component {
     render() {
         return (
-            <div id="page">
+            <div id="page"> 
                 <CarouselProvider
                     naturalSlideWidth={200}
                     naturalSlideHeight={250}
@@ -134,13 +135,13 @@ export default class G extends Component {
                         </div>
                         <FlexView height='38vw' hAlignContent='center' vAlignContent='bottom'>
                             <section id="navBar">
-                                <Dot slide={0} style={Object.assign({}, dotStyle, buttonStripper)}><a>About Me</a></Dot>
+                                <Dot slide={0} style={Object.assign({}, dotStyle, buttonStripper)}>About Me</Dot>
                                 <a>&ensp;|&ensp;</a>
-                                <Dot slide={1} style={Object.assign({}, dotStyle, buttonStripper)}><a>Portfolio</a></Dot>
+                                <Dot slide={1} style={Object.assign({}, dotStyle, buttonStripper)}>Portfolio</Dot>
                                 <a>&ensp;|&ensp;</a>
-                                <Dot slide={2} style={Object.assign({}, dotStyle, buttonStripper)}><a>Qualifications &amp; CV</a></Dot>
+                                <Dot slide={2} style={Object.assign({}, dotStyle, buttonStripper)}>Qualifications &amp; CV</Dot>
                                 <a>&ensp;|&ensp;</a>
-                                <Dot slide={3} style={Object.assign({}, dotStyle, buttonStripper)}><a>Contact</a></Dot>
+                                <Dot slide={3} style={Object.assign({}, dotStyle, buttonStripper)}>Contact</Dot>
                             </section>
                         </FlexView>
                         <div id="highlightBorder"></div>
