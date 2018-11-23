@@ -4,9 +4,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', 'Ubuntu', 'Segoe UI', 'Oxygen', 'Cantarell', 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: rgb(75,75,75); /* Old browsers */
@@ -52,28 +50,23 @@ body {
 }
 .navSection h1 {
   font-size: 3vw;
-  font-family: "Roboto"; 
   margin: 0;
   margin-bottom: 3vw;
   color: var(--highlights);
 }
 .navSection p {
   font-size: 2vw;
-  font-family: "Roboto";
   margin: 0;
 }
 .navSection p a {
   font-size: 2vw;
-  font-family: "Roboto";
   margin: 0;
 }
 .navSection a {
   font-size: 1vw;
-  font-family: "Roboto";
   font-weight: 300
 }
 #navBar{
-  font-family: "Roboto";
   color: white;
   font-size: 2vw;
   font-weight: 100;
