@@ -56,8 +56,8 @@ function PortfolioHome() {
                     <a>Portfolio</a>
                     <h1>DESIGN BEAUTIFULLY. <br /> DEVELOP EFFICIENTLY.</h1>
                     <p>Not the average undergrad.<br />Extensive experience using Adobe Suite, React, Java, Visual Studio and more to carry a project all the way from conceptualisation to realisation.
-                    <br/>
-                    <Link to="/portfolio" style={readMore}>See Work...</Link></p>
+                    <br />
+                        <Link to="/portfolio" style={readMore}>See Work...</Link></p>
                 </FlexView>
             </section>
         </section>
@@ -66,9 +66,44 @@ function PortfolioHome() {
 function PortfolioContent() {
     return (
         <section className="navSection">
-            <img src={PortfolioPizza} className="navImage" alt="aboutme" />
-            <img src={PortfolioWorldly} className="navImage" alt="aboutme" />
-            <img src={ImageAbout} className="navImage" alt="aboutme" />
+            <div className="content">
+                <a href="/casestudySoL.pdf" target="_blank"></a>
+                <div class="content-overlay"></div>
+                <img src={PortfolioPizza} className="content-image" alt="aboutme" />
+                <div class="content-details fadeIn-bottom">
+                    <h2 class="content-title">The Slice of Life</h2>
+                    <p class="content-text">A HTML and Javascript website designed to streamline the pizza ordering process</p>
+                    <h3 class="content-title">Read Case Study</h3>
+                </div>
+            </div>
+            <div className="content">
+                <a href="/casestudyWorldly.pdf" target="_blank"></a>
+                <div class="content-overlay"></div>
+                <img src={PortfolioWorldly} className="content-image" alt="aboutme" />
+                <div class="content-details fadeIn-bottom">
+                    <h3 class="content-title">Worldly</h3>
+                    <p class="content-text">A news and social app where users can read articles and discuss topics with friends</p>
+                    <h3 class="content-title">Read Case Study</h3>
+                </div>
+            </div>
+            <div className="content">
+                <div class="content-overlay"></div>
+                <img src={ImageContact} className="content-image" alt="aboutme" />
+                <div class="content-details fadeIn-bottom">
+                    <h3 class="content-title">Coming Soon</h3>
+                    <p class="content-text">Still in development</p>
+                    <h3 class="content-title">Case Study Unavailable</h3>
+                </div>
+            </div>
+            <div className="content">
+                <div class="content-overlay"></div>
+                <img src={ImagePortfolio} className="content-image" alt="aboutme" />
+                <div class="content-details fadeIn-bottom">
+                    <h3 class="content-title">Coming Soon</h3>
+                    <p class="content-text">Still in development</p>
+                    <h3 class="content-title">Case Study Unavailable</h3>
+                </div>
+            </div>
         </section>
     );
 }
@@ -76,7 +111,7 @@ function PortfolioContent() {
 export default class G extends Component {
     render() {
         return (
-            <div id="page"> 
+            <div id="page">
                 <CarouselProvider
                     naturalSlideWidth={200}
                     naturalSlideHeight={250}
@@ -103,8 +138,8 @@ export default class G extends Component {
                                 <Slide index={1}>
                                     <Router>
                                         <div>
-                                        <Route exact path="/" component={PortfolioHome} />
-                                        <Route path="/portfolio" component={PortfolioContent} />
+                                            <Route exact path="/" component={PortfolioHome} />
+                                            <Route path="/portfolio" component={PortfolioContent} />
                                         </div>
                                     </Router>
                                 </Slide>
@@ -127,7 +162,7 @@ export default class G extends Component {
                                             <FlexView column vAlignContent='center'>
                                                 <a>Contact</a>
                                                 <h1>FAST. <br /> RESPONSIVE.</h1>
-                                                <p>Feel free to contact me anytime at:<br /><a href="mailto:contact@gabrielgruter.com" style={emailStyle}>contact@gabrielgruter.com</a><br/>Or snoop into this site's <a href="https://github.com/gabrielgruter/react-to-gabe" target="__blank">source code</a></p>
+                                                <p>Feel free to contact me anytime at:<br /><a href="mailto:contact@gabrielgruter.com" style={emailStyle}>contact@gabrielgruter.com</a><br />Or snoop into this site's <a href="https://github.com/gabrielgruter/react-to-gabe" target="__blank">source code</a></p>
                                             </FlexView>
                                         </section>
                                     </section>
