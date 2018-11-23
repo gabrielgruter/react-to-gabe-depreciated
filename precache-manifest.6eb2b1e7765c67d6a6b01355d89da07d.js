@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/pizzaWebsite.2d524a2f.jpg"
   },
   {
-    "revision": "15a5571ca2826abcdf35",
+    "revision": "9a5259b3534e55c32af2",
     "url": "/static/css/main.5a9752ed.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "/static/media/worldlycolours.b0e3c706.png"
   },
   {
-    "revision": "c79b5368641948009439",
-    "url": "/static/js/1.c79b5368.chunk.js"
+    "revision": "235ca115a2a45a57cbee",
+    "url": "/static/js/1.235ca115.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/static/media/about.6125806b.jpg"
   },
   {
-    "revision": "15a5571ca2826abcdf35",
-    "url": "/static/js/main.15a5571c.chunk.js"
+    "revision": "9a5259b3534e55c32af2",
+    "url": "/static/js/main.9a5259b3.chunk.js"
   },
   {
     "revision": "afd2fe42de2d7c0f0a29589d7b5b998e",
@@ -60,11 +60,11 @@ self.__precacheManifest = [
     "url": "/static/media/worldlylogowire.db8a6f0f.png"
   },
   {
-    "revision": "c79b5368641948009439",
+    "revision": "235ca115a2a45a57cbee",
     "url": "/static/css/1.dda5eb89.chunk.css"
   },
   {
-    "revision": "1c0aaf693329cc585510507a5dfd6200",
+    "revision": "15892a6d0bd6079c0e41d392cfc122b9",
     "url": "/index.html"
   }
 ];
