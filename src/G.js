@@ -3,7 +3,7 @@ import FlexView from 'react-flexview'
 import { CarouselProvider, Slider, Slide, Dot } from 'pure-react-carousel'
 import 'pure-react-carousel/dist/react-carousel.es.css'
 import SkyLight from 'react-skylight'
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Route, Link } from "react-router-dom";
 import ScrollArea from 'react-scrollbar'
 
 import ImageAbout from './res/about.jpg'
