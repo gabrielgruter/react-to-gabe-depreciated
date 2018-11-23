@@ -80,7 +80,8 @@ export default class G extends Component {
                 <CarouselProvider
                     naturalSlideWidth={200}
                     naturalSlideHeight={250}
-                    totalSlides={4}>
+                    totalSlides={4}
+                    dragEnabled={false}>
                     <FlexView
                         height='100vh'
                         hAlignContent='center'
