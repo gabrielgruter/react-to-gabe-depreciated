@@ -1,12 +1,14 @@
 :root {
   --highlights: #098A00;
 }
-body {
-  margin: 0;
-  padding: 0;
+html {
   font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', 'Ubuntu', 'Segoe UI', 'Oxygen', 'Cantarell', 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+body {
+  margin: 0;
+  padding: 0;
   background: rgb(75,75,75); /* Old browsers */
   background: -moz-linear-gradient(45deg, rgb(75,75,75) 0%, rgb(0,0,0) 100%); /* FF3.6-15 */
   background: -webkit-linear-gradient(45deg, rgb(75,75,75) 0%,rgb(0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
