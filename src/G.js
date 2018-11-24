@@ -84,7 +84,7 @@ function PortfolioContent() {
                     <div class="content-details fadeIn-bottom">
                         <h2 class="content-title">Worldly</h2>
                         <p class="content-text">Year 2 Assignment: A news and social app where users can read articles and discuss topics with friends. (case study incomplete until assignment deadline)</p>
-                        <h3 class="content-title">Case Study Unavailable</h3>
+                        <h3 class="content-title">Read Case Study</h3>
                     </div>
                 </a>
             </div>
