@@ -34,12 +34,6 @@ const emailStyle = {
     fontFamily: "inherit",
     margin: "0",
 }
-const portfolioStyle = {
-    width: "25vw",
-    height: "50vh",
-    marginLeft: "-12.5vw",
-    marginTop: "-25vh",
-}
 
 function PortfolioHome() {
     return (
@@ -83,7 +77,6 @@ function PortfolioContent() {
                 </a>
             </div>
             <div className="content">
-                <a href="">
                     <div class="content-overlay"></div>
                     <img src={ImagePortfolio} className="content-image" alt="aboutme" />
                     <div class="content-details fadeIn-bottom">
@@ -91,7 +84,6 @@ function PortfolioContent() {
                         <p class="content-text">Year 2 Assignment: A 3D render of the Duff Party Bus, from blueprinting to final render (case study unavailable until assignment deadline)</p>
                         <h3 class="content-title">Case Study Unavailable</h3>
                     </div>
-                </a>
             </div>
             <div className="content">
                 <a href="/Portfolio Website/index.html" target="_blank">
