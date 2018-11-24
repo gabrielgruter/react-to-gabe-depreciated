@@ -55,7 +55,7 @@ function PortfolioHome() {
                 <FlexView column vAlignContent='center'>
                     <a>Portfolio</a>
                     <h1>DESIGN BEAUTIFULLY. <br /> DEVELOP EFFICIENTLY.</h1>
-                    <p>Not the average undergrad.<br />Extensive experience using Adobe Suite, React, Java, Visual Studio and more to carry a project all the way from conceptualisation to realisation.
+                    <p>Fullstack capability.<br />Extensive experience using Adobe Suite, React, Java, Visual Studio and more to carry a project all the way from conceptualisation to realisation.
                     <br />
                         <Link to="/portfolio" style={readMore}>See Work...</Link></p>
                 </FlexView>
@@ -83,7 +83,7 @@ function PortfolioContent() {
                     <img src={PortfolioWorldly} className="content-image" alt="aboutme" />
                     <div class="content-details fadeIn-bottom">
                         <h2 class="content-title">Worldly</h2>
-                        <p class="content-text">Year 2 Assignment: A news and social app where users can read articles and discuss topics with friends. (case study unavailable until assignment deadline)</p>
+                        <p class="content-text">Year 2 Assignment: A news and social app where users can read articles and discuss topics with friends. (case study incomplete until assignment deadline)</p>
                         <h3 class="content-title">Case Study Unavailable</h3>
                     </div>
                 </a>
@@ -145,7 +145,7 @@ export default class G extends Component {
                                             <FlexView column vAlignContent='center'>
                                                 <a>Qualifications &amp; CV</a>
                                                 <h1>ADOBE SUITE. <br /> REACT, NODE, ANDROID, iOS.</h1>
-                                                <p>Not the average undergrad.<br />1 year of industry experience with yvySolutions. Creating, working on and maintaining android/iOS apps as a web/app developer alongside my undergradude studies.<a style={readMore} href="/CV.pdf" target="_blank"> See CV...</a></p>
+                                                <p>Dedicated to work.<br />1 year of industry experience with YvYSolutions: Creating, working on and maintaining android/iOS apps as a web/app developer alongside my undergradude studies.<a style={readMore} href="/CV.pdf" target="_blank"> See CV...</a></p>
                                             </FlexView>
                                         </section>
                                     </section>
