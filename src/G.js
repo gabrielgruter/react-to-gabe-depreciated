@@ -72,7 +72,7 @@ function PortfolioContent() {
                     <img src={PortfolioPizza} className="content-image" alt="aboutme" />
                     <div class="content-details fadeIn-bottom">
                         <h2 class="content-title">The Slice of Life</h2>
-                        <p class="content-text">A HTML and Javascript website designed to streamline the pizza ordering process</p>
+                        <p class="content-text">Year 1 Assignment: A HTML and Javascript website designed to streamline the pizza ordering process</p>
                         <h3 class="content-title">Read Case Study</h3>
                     </div>
                 </a>
@@ -83,18 +83,7 @@ function PortfolioContent() {
                     <img src={PortfolioWorldly} className="content-image" alt="aboutme" />
                     <div class="content-details fadeIn-bottom">
                         <h2 class="content-title">Worldly</h2>
-                        <p class="content-text">A news and social app where users can read articles and discuss topics with friends</p>
-                        <h3 class="content-title">Read Case Study</h3>
-                    </div>
-                </a>
-            </div>
-            <div className="content">
-                <a href="">
-                    <div class="content-overlay"></div>
-                    <img src={ImageContact} className="content-image" alt="aboutme" />
-                    <div class="content-details fadeIn-bottom">
-                        <h2 class="content-title">Coming Soon</h2>
-                        <p class="content-text">Still in development</p>
+                        <p class="content-text">Year 2 Assignment: A news and social app where users can read articles and discuss topics with friends. (case study unavailable until assignment deadline)</p>
                         <h3 class="content-title">Case Study Unavailable</h3>
                     </div>
                 </a>
@@ -104,8 +93,8 @@ function PortfolioContent() {
                     <div class="content-overlay"></div>
                     <img src={ImagePortfolio} className="content-image" alt="aboutme" />
                     <div class="content-details fadeIn-bottom">
-                        <h2 class="content-title">Coming Soon</h2>
-                        <p class="content-text">Still in development</p>
+                        <h2 class="content-title">The Simpsons: Duff Party Bus</h2>
+                        <p class="content-text">Year 2 Assignment: A 3D render of the Duff Party Bus, from blueprinting to final render (case study unavailable until assignment deadline)</p>
                         <h3 class="content-title">Case Study Unavailable</h3>
                     </div>
                 </a>
