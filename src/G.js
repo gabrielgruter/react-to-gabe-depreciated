@@ -8,7 +8,7 @@ import ScrollArea from 'react-scrollbar'
 
 import ImageAbout from './res/about.jpg'
 import ImagePortfolio from './res/portfolio.jpg'
-import PortfolioPizza from './res/portfolio/pizza website/pizzaWebsite.jpg'
+import PortfolioComic from './res/portfolio/comic/comicCover.jpg'
 import PortfolioWorldly from './res/portfolio/worldly/worldlyCover.jpg'
 import ImageCV from './res/cv.jpg'
 import ImageContact from './res/contact.jpg'
@@ -67,12 +67,12 @@ function PortfolioContent() {
     return (
         <section className="navSection">
             <div className="content">
-                <a href="/casestudySoL.pdf" target="_blank">
+                <a href="/casestudyGromit.pdf" target="_blank">
                     <div class="content-overlay"></div>
-                    <img src={PortfolioPizza} className="content-image" alt="aboutme" />
+                    <img src={PortfolioComic} className="content-image" alt="aboutme" />
                     <div class="content-details fadeIn-bottom">
-                        <h2 class="content-title">The Slice of Life</h2>
-                        <p class="content-text">Year 1 Assignment: A HTML and Javascript website designed to streamline the pizza ordering process</p>
+                        <h2 class="content-title">Wallace and Gromit Comic</h2>
+                        <p class="content-text">Year 1 Assignment: Fuse together Marvel Comics and Wallace &amp; Gromit concepts</p>
                         <h3 class="content-title">Read Case Study</h3>
                     </div>
                 </a>
