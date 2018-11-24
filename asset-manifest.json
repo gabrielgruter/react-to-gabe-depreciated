@@ -1,14 +1,14 @@
 {
   "main.css": "/static/css/main.5a9752ed.chunk.css",
-  "main.js": "/static/js/main.d9e0e664.chunk.js",
-  "main.js.map": "/static/js/main.d9e0e664.chunk.js.map",
+  "main.js": "/static/js/main.90c2984d.chunk.js",
+  "main.js.map": "/static/js/main.90c2984d.chunk.js.map",
   "static/css/1.dda5eb89.chunk.css": "/static/css/1.dda5eb89.chunk.css",
   "static/js/1.2fb06d7a.chunk.js": "/static/js/1.2fb06d7a.chunk.js",
   "static/js/1.2fb06d7a.chunk.js.map": "/static/js/1.2fb06d7a.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
   "static/media/portfolio.jpg": "/static/media/portfolio.4ede99a7.jpg",
-  "static/media/pizzaWebsite.jpg": "/static/media/pizzaWebsite.2d524a2f.jpg",
+  "static/media/comicCover.jpg": "/static/media/comicCover.7181c4ed.jpg",
   "static/media/worldlyCover.jpg": "/static/media/worldlyCover.afd2fe42.jpg",
   "static/media/cv.jpg": "/static/media/cv.37c48c6a.jpg",
   "static/media/contact.jpg": "/static/media/contact.22c0be3f.jpg",
@@ -21,6 +21,6 @@
   "static/css/main.5a9752ed.chunk.css.map": "/static/css/main.5a9752ed.chunk.css.map",
   "static/css/1.dda5eb89.chunk.css.map": "/static/css/1.dda5eb89.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.ad44167b4e1eb6f0d890e294a87fd505.js": "/precache-manifest.ad44167b4e1eb6f0d890e294a87fd505.js",
+  "precache-manifest.079c7e862079bfce0cc6f06db285df13.js": "/precache-manifest.079c7e862079bfce0cc6f06db285df13.js",
   "service-worker.js": "/service-worker.js"
 }
