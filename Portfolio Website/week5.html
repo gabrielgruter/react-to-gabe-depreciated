@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="icon" sizes="16x16 32x32 64x64" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="196x196" href="favicon-192.png">
+<link rel="icon" type="image/png" sizes="160x160" href="favicon-160.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96.png">
+<link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
+<link rel="apple-touch-icon" href="favicon-57.png">
+<link rel="apple-touch-icon" sizes="114x114" href="favicon-114.png">
+<link rel="apple-touch-icon" sizes="72x72" href="favicon-72.png">
+<link rel="apple-touch-icon" sizes="144x144" href="favicon-144.png">
+<link rel="apple-touch-icon" sizes="60x60" href="favicon-60.png">
+<link rel="apple-touch-icon" sizes="120x120" href="favicon-120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="favicon-76.png">
+<link rel="apple-touch-icon" sizes="152x152" href="favicon-152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="favicon-180.png">
+<meta name="msapplication-TileColor" content="#FFFFFF">
+<meta name="msapplication-TileImage" content="favicon-144.png">
+<meta name="msapplication-config" content="browserconfig.xml">
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+<title>Gabriel Gruter</title>
+</head>
+<body>
+<div id="background" class="mainBoy pagebackground noHighlight">
+  <section id="leftSection" class="sections sectionbackground">
+    <nav id="navBar" class="noHighlight">
+      <section class="navButton navNSelected"><a href="home.html">HOME</a></section>
+      <section class="navButton navNSelected"><a>CONTACT</a></section>
+    </nav>
+    <subsection id="blogContent">
+      <h1>Compression</h1>
+      <h2>ORIGINAL</h2>
+      <p>The original file (taken with my <a href="https://www.canon.co.uk/for_home/product_finder/cameras/digital_slr/eos_700d/specification.aspx">DSLR</a>) is in .MOV format with a filesize of about 28MB. However, to speed up load times the videos were uploaded to YouTube and embedded into this page. YouTube uses a propriety and unpublished compression algorithm therefore, I could not find any reliable sources on how these videos are compressed after they are uploaded. It is worth mentioning that the videos on this page have double compression, the video format that I rendered them in and the format that YouTube uses. However, for the sake of this exercise, we will asume the YouTube compression is non-existant.</p>
+      <p><strong>Video Format: H.264 | File Format: .MOV | File Size: 28.2MB | Compression Level: Original</strong></p>
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/QqFqCfgmRC8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <h2>QUALITY 10</h2>
+      <p>For the next level I chose the DNxHR format. DNxHR (Digital Nonlinear Extensible High Resolution) is a lossy codec however, it is the least lossy available to me without using the original file. DNxHR was developed for 2K resolutions and up. When rendering a 1080p video, quality loss is not high but file sizes are large. DNxHR also uses the .mxf (Material Exchange Format) file format. On mac I could also have had the option to use the ProRes format which is considered less lossy than DNxHR however, as I do most of my work on Windows, that wasn't available to me.</p>
+      <p><strong>Video Format: DNxHR | File Format: .mxf | File Size: 254MB | Quality Level: 10</strong></p>
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/AqXCQY2PeEU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <h2>QUALITY 7</h2>
+      <p>The .mp4 file format is one of the most common because it was initallity popularised by Apple. Although it tends to be lower definition than other formats it is widely supported by almost all devices, mp4 supports the H.264 and MPEG-4 codecs. The H.264 codec is also one of the most commonly used because it can support resolutions up to 8K and can be wrapped with .mp4. This makes it easy to render high resolution video for almost all devices (many high-res formats are not widely supported, e.g. mxf). I used this combination for level 7 because I find that the quality to file size is satisfactory for the resolution and fps that I filmed in (1080p24fps). At 1080p the quality difference between level 7 and level 10 (above) is minimal but the file sizes are drastically different.</p>
+      <p><strong>Video Format: H.264 | File Format: .mp4 | File Size: 4.3MB | Quality Level: 7</strong></p>
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/7MIg2QLNoDY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <p></p>
+      <h2>QUALITY 5</h2>
+      <p><strong>Video Format: MPEG2 | File Format: .mpg | File Size: 3.32MB | Quality Level: 5</strong></p>
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/1RY_bGxnQvw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </subsection>
+  </section>
+  <section id="rightsection" class="noHighlight">
+    <section id="blog" class="sections sectionbackground">
+      <header class="blogelements">
+        <h1>Blog</h1>
+      </header>
+      <article id="blogArticles"> </article>
+      <footer class="blogelements homeButton"></footer>
+    </section>
+    <section id="contactlinks" class="sections sectionbackground">
+      <subsection class="blogentry">
+        <h2>Instagram</h2>
+      </subsection>
+      <subsection class="blogentry">
+        <h2>Email</h2>
+      </subsection>
+    </section>
+  </section>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js"></script> 
+<script src="main.js"></script>
+</body>
+</html>
