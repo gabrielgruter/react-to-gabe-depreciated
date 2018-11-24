@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.5a9752ed.chunk.css",
-  "main.js": "/static/js/main.5dd002d6.chunk.js",
-  "main.js.map": "/static/js/main.5dd002d6.chunk.js.map",
+  "main.js": "/static/js/main.0a447269.chunk.js",
+  "main.js.map": "/static/js/main.0a447269.chunk.js.map",
   "static/css/1.dda5eb89.chunk.css": "/static/css/1.dda5eb89.chunk.css",
   "static/js/1.2fb06d7a.chunk.js": "/static/js/1.2fb06d7a.chunk.js",
   "static/js/1.2fb06d7a.chunk.js.map": "/static/js/1.2fb06d7a.chunk.js.map",
@@ -18,9 +18,9 @@
   "static/media/worldlylogowire.png": "/static/media/worldlylogowire.db8a6f0f.png",
   "static/media/worldlycolours.png": "/static/media/worldlycolours.b0e3c706.png",
   "static/media/about.jpg": "/static/media/about.6125806b.jpg",
-  "static/css/1.dda5eb89.chunk.css.map": "/static/css/1.dda5eb89.chunk.css.map",
   "static/css/main.5a9752ed.chunk.css.map": "/static/css/main.5a9752ed.chunk.css.map",
+  "static/css/1.dda5eb89.chunk.css.map": "/static/css/1.dda5eb89.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.32a58205261e27f3c4ccc9d9103169e2.js": "/precache-manifest.32a58205261e27f3c4ccc9d9103169e2.js",
+  "precache-manifest.2f2c4140d2839a6a3846bcd504e53105.js": "/precache-manifest.2f2c4140d2839a6a3846bcd504e53105.js",
   "service-worker.js": "/service-worker.js"
 }
