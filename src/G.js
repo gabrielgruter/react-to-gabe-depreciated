@@ -2,9 +2,7 @@ import React, { Component } from 'react'
 import FlexView from 'react-flexview'
 import { CarouselProvider, Slider, Slide, Dot } from 'pure-react-carousel'
 import 'pure-react-carousel/dist/react-carousel.es.css'
-import SkyLight from 'react-skylight'
 import { HashRouter as Router, Route, Link } from "react-router-dom";
-import ScrollArea from 'react-scrollbar'
 
 import ImageAbout from './res/about.jpg'
 import ImagePortfolio from './res/portfolio.jpg'
@@ -13,11 +11,6 @@ import PortfolioWorldly from './res/portfolio/worldly/worldlyCover.jpg'
 import PortfolioBlog from './res/portfolio/blog/blogCover.jpg'
 import ImageCV from './res/cv.jpg'
 import ImageContact from './res/contact.jpg'
-import WorldlyComb from './res/portfolio/worldly/worldlycomb.png'
-import WorldlyTitle from './res/portfolio/worldly/worldlytitle.png'
-import WorldlyLogo from './res/portfolio/worldly/worldlylogo.png'
-import WorldlyWire from './res/portfolio/worldly/worldlylogowire.png'
-import WorldlyColour from './res/portfolio/worldly/worldlycolours.png'
 
 const buttonStripper = {
     background: "none",
