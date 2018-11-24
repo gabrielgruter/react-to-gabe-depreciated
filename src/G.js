@@ -10,6 +10,7 @@ import ImageAbout from './res/about.jpg'
 import ImagePortfolio from './res/portfolio.jpg'
 import PortfolioComic from './res/portfolio/comic/comicCover.jpg'
 import PortfolioWorldly from './res/portfolio/worldly/worldlyCover.jpg'
+import PortfolioBlog from './res/portfolio/blog/blogCover.jpg'
 import ImageCV from './res/cv.jpg'
 import ImageContact from './res/contact.jpg'
 import WorldlyComb from './res/portfolio/worldly/worldlycomb.png'
@@ -99,6 +100,17 @@ function PortfolioContent() {
                     </div>
                 </a>
             </div>
+            <div className="content">
+                <a href="/Portfolio Website/index.html" target="_blank">
+                    <div class="content-overlay"></div>
+                    <img src={PortfolioBlog} className="content-image" alt="aboutme" />
+                    <div class="content-details fadeIn-bottom">
+                        <h2 class="content-title">Assignment EE2615</h2>
+                        <p class="content-text">A weekly blog for Year 2 module 2615 (blog unavailable until assignment deadline)</p>
+                        <h3 class="content-title">Blog Unavailable</h3>
+                    </div>
+                </a>
+            </div>
         </section >
     );
 }
@@ -183,11 +195,3 @@ export default class G extends Component {
         )
     }
 }
-// This website would not have been possible without:
-// React.js https://reactjs.org/
-// npm https://www.npmjs.com/
-//
-// FlexView https://github.com/buildo/react-flexview
-// Pure React Carousel https://www.npmjs.com/package/pure-react-carousel
-// SkyLight https://marcio.github.io/react-skylight/
-// Scrollbar https://www.npmjs.com/package/react-scrollbar
