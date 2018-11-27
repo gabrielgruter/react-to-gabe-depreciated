@@ -71,7 +71,7 @@ function PortfolioContent() {
                     <img src={PortfolioWorldly} className="content-image" alt="aboutme" />
                     <div class="content-details fadeIn-bottom">
                         <h2 class="content-title">Worldly</h2>
-                        <p class="content-text">Year 2 Assignment: A news and social app where users can read articles and discuss topics with friends. (case study incomplete until assignment deadline)</p>
+                        <p class="content-text">Year 2 Assignment: A news and social app where users can read articles and discuss topics with friends. (full case study unavailable until assignment deadline)</p>
                         <h3 class="content-title">Read Case Study</h3>
                     </div>
                 </a>
@@ -86,7 +86,6 @@ function PortfolioContent() {
                     </div>
             </div>
             <div className="content">
-                <a href="/Portfolio Website/index.html" target="_blank">
                     <div class="content-overlay"></div>
                     <img src={PortfolioBlog} className="content-image" alt="aboutme" />
                     <div class="content-details fadeIn-bottom">
@@ -94,7 +93,6 @@ function PortfolioContent() {
                         <p class="content-text">A weekly blog for Year 2 module 2615 (blog unavailable until assignment deadline)</p>
                         <h3 class="content-title">Blog Unavailable</h3>
                     </div>
-                </a>
             </div>
         </section >
     );
