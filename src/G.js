@@ -197,7 +197,7 @@ export default class G extends Component {
                         <Route path="/" component={MobileSite} />
                     </MediaQuery>
                     <MediaQuery query="(orientation: landscape)">
-                        <Route path="/" component={DesktopSite} />
+                        <Route exact path="/" component={DesktopSite} />
                     </MediaQuery>
                 </div>
             </Router>
