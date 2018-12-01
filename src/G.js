@@ -189,19 +189,18 @@ function MobileSite() {
 export default class G extends Component {
     render() {
         return (
-            <div>
+            
+                <Router>
+                    <div>
                 <MediaQuery query="(orientation: portrait)">
-                    <Redirect to="/" />
-                    <Router>
-                        <Route exact path="/" component={MobileSite} />
-                    </Router>
+                        <Route path="/" component={MobileSite} />
                 </MediaQuery>
                 <MediaQuery query="(orientation: landscape)">
-                    <Router>
-                        <Route exact path="/" component={DesktopSite} />
-                    </Router>
+                        <Route path="/" component={DesktopSite} />
                 </MediaQuery>
-            </div>
+                </div>
+                </Router>
+            
         )
     }
 }
