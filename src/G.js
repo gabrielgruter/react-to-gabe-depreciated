@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import FlexView from 'react-flexview'
 import { CarouselProvider, Slider, Slide, Dot } from 'pure-react-carousel'
 import 'pure-react-carousel/dist/react-carousel.es.css'
-import { BrowserRouter as Router, Route, Link } from "react-router-dom"
+import { BrowserRouter as Router, Route, Link, Redirect } from "react-router-dom"
 import MediaQuery from 'react-responsive'
 
 import ImageAbout from './res/about.jpg'
@@ -191,6 +191,7 @@ export default class G extends Component {
         return (
             <div>
                 <MediaQuery query="(orientation: portrait)">
+                    <Redirect to="/" />
                     <Router>
                         <Route exact path="/" component={MobileSite} />
                     </Router>
