@@ -205,6 +205,10 @@ body {
   font-weight: normal;
 }
 
+#mobilePage h2 {
+  margin: 5vw;
+}
+
 #mobilePage p {
   margin: 5vw;
 }
