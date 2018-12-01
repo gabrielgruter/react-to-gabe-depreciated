@@ -3,6 +3,7 @@ import FlexView from 'react-flexview'
 import { CarouselProvider, Slider, Slide, Dot } from 'pure-react-carousel'
 import 'pure-react-carousel/dist/react-carousel.es.css'
 import { BrowserRouter as Router, Route, Link, Redirect } from "react-router-dom"
+import createHistory from 'history/createBrowserHistory';
 import MediaQuery from 'react-responsive'
 
 import ImageAbout from './res/about.jpg'
@@ -180,16 +181,17 @@ function DesktopPortfolioContent() {
 function MobileSite() {
     return (
         <div id="mobilePage">
-            <h1>GABRIEL<br />GRUTER</h1>
+            <h2>GABRIEL<br />GRUTER</h2>
             <p>Portrait mode coming very soon!</p>
             <p>Please turn your device landscape :)</p>
         </div>
     )
 }
+const history = createHistory({basename: process.env.PUBLIC_URL,});
 export default class G extends Component {
     render() {
         return (
-            <Router>
+            <Router history={history} basename={process.env.PUBLIC_URL}>
                 <div>
                     <MediaQuery query="(orientation: portrait)">
                         <Route path="/" component={MobileSite} />
