@@ -10,7 +10,7 @@ anime({
 	direction: 'alternate',
 	loop: false,
 	opacity: [
-		{value: '0', delay: '4500', easing: 'linear', duration: '500'}
+		{ value: '0', delay: '4500', easing: 'linear', duration: '500' }
 	],
 });
 var fadeButton = anime({
@@ -25,7 +25,7 @@ var fadeButton = anime({
 //Background and sections animation
 anime({
 	targets: 'div.mainBoy',
-	opacity: ['0','1'],
+	opacity: ['0', '1'],
 	elasticity: 0,
 	duration: 500,
 });

@@ -199,10 +199,12 @@ body {
   width: 100vw;
   height: 100vh;
 }
+
 #mobilePage h1 {
   margin: 5vw;
   font-weight: normal;
 }
+
 #mobilePage p {
   margin: 5vw;
 }
