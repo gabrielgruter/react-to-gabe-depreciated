@@ -2,8 +2,7 @@ import React, { Component } from 'react'
 import FlexView from 'react-flexview'
 import { CarouselProvider, Slider, Slide, Dot } from 'pure-react-carousel'
 import 'pure-react-carousel/dist/react-carousel.es.css'
-import { BrowserRouter as Router, Route, Link, Redirect } from "react-router-dom"
-import createHistory from 'history/createBrowserHistory';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom"
 import MediaQuery from 'react-responsive'
 
 import ImageAbout from './res/about.jpg'
@@ -187,11 +186,10 @@ function MobileSite() {
         </div>
     )
 }
-const history = createHistory({basename: process.env.PUBLIC_URL,});
 export default class G extends Component {
     render() {
         return (
-            <Router history={history} basename={process.env.PUBLIC_URL}>
+            <Router>
                 <div>
                     <MediaQuery query="(orientation: portrait)">
                         <Route path="/" component={MobileSite} />
