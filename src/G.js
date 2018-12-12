@@ -165,13 +165,15 @@ function DesktopPortfolioContent() {
                 </div>
             </div>
             <div className="content">
-                <div class="content-overlay"></div>
-                <img src={PortfolioBlog} className="content-image" alt="aboutme" />
-                <div class="content-details fadeIn-bottom">
-                    <h2 class="content-title">Assignment EE2615</h2>
-                    <p class="content-text">A weekly blog for Year 2 module 2615 (blog unavailable until assignment deadline)</p>
-                    <h3 class="content-title">Blog Unavailable</h3>
-                </div>
+                <a href="Portfolio Website/index.html">
+                    <div class="content-overlay"></div>
+                    <img src={PortfolioBlog} className="content-image" alt="aboutme" />
+                    <div class="content-details fadeIn-bottom">
+                        <h2 class="content-title">Assignment EE2615</h2>
+                        <p class="content-text">A weekly blog for Year 2 module 2615 (blog unavailable until assignment deadline)</p>
+                        <h3 class="content-title">Blog Unavailable</h3>
+                    </div>
+                </a>
             </div>
         </section >
     )
