@@ -31,7 +31,7 @@ function animate() {
 }
 //DYNAMIC BLOG ENTRIES
 var i;
-for (i = 0; i < 8; i++) {
+for (i = 0; i < 9; i++) {
 	var j = i + 1;
 	var entryBox = document.createElement("subsection");
 	entryBox.classList.add("blogentry");
