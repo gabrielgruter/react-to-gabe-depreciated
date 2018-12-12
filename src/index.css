@@ -195,20 +195,32 @@ body {
 
 #mobilePage {
   position: absolute;
-  background: white;
-  width: 100vw;
+  width: 90vw;
   height: 100vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
 
 #mobilePage h1 {
-  margin: 5vw;
+  margin: 0;
   font-weight: normal;
 }
 
 #mobilePage h2 {
-  margin: 5vw;
+  margin: 0;
+  margin-top: 5vw;
+}
+
+#mobilePage h3 {
+  margin: 0;
+  margin-left: 2.5vw;
+  margin-top: 5vw;
+  margin-bottom: 2.5vw;
+  color: var(--highlights);
 }
 
 #mobilePage p {
-  margin: 5vw;
+  margin: 0;
+  margin-right: 5vw;
+  width: 100%;
 }

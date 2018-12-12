@@ -181,8 +181,15 @@ function MobileSite() {
     return (
         <div id="mobilePage">
             <h2>GABRIEL<br />GRUTER</h2>
-            <p>Portrait mode coming very soon!</p>
-            <p>Please turn your device landscape :)</p>
+            <h3>International. Multi-Cultural</h3>
+            <p>Not the average undergrad.<br />Fluency in English, German and Portuguese with British, Euro and Latin American nationalities. I can correspond with a variety of different clients and work in EU and non-EU countries.</p>
+            <h3>Design Beautifully. Develop Efficiently</h3>
+            <p>Fullstack capability.<br />Extensive experience using Adobe Suite, React, Java, Visual Studio and more to carry a project all the way from conceptualisation to realisation.</p>
+            <h3>Adobe. React. Node. Android. iOS. Web.</h3>
+            <p>Dedicated to work.<br />1 year of industry experience with YvYSolutions: Creating, working on and maintaining android/iOS apps as a web/app developer alongside my undergradude studies.</p>
+            <h3>Fast. Responsive.</h3>
+            <p>Feel free to contact me anytime at:<br /><a href="mailto:contact@gabrielgruter.com">contact@gabrielgruter.com</a><br />Or snoop into this site's <a href="https://github.com/gabrielgruter/react-to-gabe" target="__blank">source code</a></p>
+            <br />
         </div>
     )
 }
