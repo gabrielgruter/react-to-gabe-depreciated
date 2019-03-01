@@ -9,7 +9,7 @@ import ImageAbout from './res/about.jpg'
 import ImagePortfolio from './res/portfolio.jpg'
 import PortfolioComic from './res/portfolio/comic/comicCover.jpg'
 import PortfolioWorldly from './res/portfolio/worldly/worldlyCover.jpg'
-import PortfolioBlog from './res/portfolio/blog/blogCover.jpg'
+import PortfolioDaisygreen from './res/portfolio/daisygreen/daisygreenCover.jpg'
 import ImageCV from './res/cv.jpg'
 import ImageContact from './res/contact.jpg'
 
@@ -89,7 +89,7 @@ function DesktopSite({ match }) {
                                         <FlexView column vAlignContent='center'>
                                             <a>Contact</a>
                                             <h1>FAST. <br /> RESPONSIVE.</h1>
-                                            <p>Feel free to contact me anytime at:<br /><a href="mailto:contact@gabrielgruter.com" style={emailStyle}>contact@gabrielgruter.com</a><br />Or snoop into this site's <a href="https://github.com/gabrielgruter/react-to-gabe" target="__blank">source code</a></p>
+                                            <p>Feel free to contact me anytime at:<br /><a href="mailto:contact@gabrielgruter.com" style={emailStyle}>contact@gabrielgruter.com</a><br /><a href="https://www.linkedin.com/in/gabriel-gruter/" target="_blank">www.linkedin.com/in/gabriel-gruter/</a><br />Or snoop into this site's <a href="https://github.com/gabrielgruter/react-to-gabe" target="__blank">source code</a></p>
                                         </FlexView>
                                     </section>
                                 </section>
@@ -149,31 +149,31 @@ function DesktopPortfolioContent() {
                     <div class="content-overlay"></div>
                     <img src={PortfolioWorldly} className="content-image" alt="aboutme" />
                     <div class="content-details fadeIn-bottom">
-                        <h2 class="content-title">Worldly</h2>
-                        <p class="content-text">Year 2 Assignment: A news and social app where users can read articles and discuss topics with friends. (full case study unavailable until assignment deadline)</p>
+                        <h2 class="content-title">Worldly News/Social Media App</h2>
+                        <p class="content-text">Year 2 Assignment: A news and social media app where users can read articles and discuss topics with friends.</p>
                         <h3 class="content-title">Read Case Study</h3>
                     </div>
                 </a>
             </div>
             <div className="content">
+                <a href="/casestudySimpsons.pdf" target="_blank">
                 <div class="content-overlay"></div>
                 <img src={ImagePortfolio} className="content-image" alt="aboutme" />
                 <div class="content-details fadeIn-bottom">
                     <h2 class="content-title">The Simpsons: Duff Party Bus</h2>
-                    <p class="content-text">Year 2 Assignment: A 3D render of the Duff Party Bus, from blueprinting to final render (case study unavailable until assignment deadline)</p>
-                    <h3 class="content-title">Case Study Unavailable</h3>
+                    <p class="content-text">Year 2 Assignment: A 3D render of the Duff Party Bus, from blueprinting to final render.</p>
+                    <h3 class="content-title">Read Case Study</h3>
                 </div>
+                </a>
             </div>
             <div className="content">
-                <a href="Portfolio Website/index.html">
                     <div class="content-overlay"></div>
-                    <img src={PortfolioBlog} className="content-image" alt="aboutme" />
+                    <img src={PortfolioDaisygreen} className="content-image" alt="aboutme" />
                     <div class="content-details fadeIn-bottom">
-                        <h2 class="content-title">Assignment EE2615</h2>
-                        <p class="content-text">A weekly blog for Year 2 module 2615 (blog unavailable until assignment deadline)</p>
-                        <h3 class="content-title">Blog Unavailable</h3>
+                        <h2 class="content-title">Coffee on Demand</h2>
+                        <p class="content-text">An app for commuters who drink coffee. Order on the tube, collect in store. (case study unavailable publicly until assignment deadline)</p>
+                        <h3 class="content-title">Case Study Unavailable</h3>
                     </div>
-                </a>
             </div>
         </section >
     )
@@ -183,6 +183,7 @@ function MobileSite() {
     return (
         <div id="mobilePage">
             <h2>GABRIEL<br />GRUTER</h2>
+            <p>[Portrait site still in development, please turn your device landscape for full functionality]</p>
             <h3>International. Multi-Cultural</h3>
             <p>Not the average undergrad.<br />Fluency in English, German and Portuguese with British, Euro and Latin American nationalities. I can correspond with a variety of different clients and work in EU and non-EU countries.</p>
             <h3>Design Beautifully. Develop Efficiently</h3>
@@ -190,7 +191,7 @@ function MobileSite() {
             <h3>Adobe. React. Node. Android. iOS. Web.</h3>
             <p>Dedicated to work.<br />1 year of industry experience with YvYSolutions: Creating, working on and maintaining android/iOS apps as a web/app developer alongside my undergradude studies.</p>
             <h3>Fast. Responsive.</h3>
-            <p>Feel free to contact me anytime at:<br /><a href="mailto:contact@gabrielgruter.com">contact@gabrielgruter.com</a><br />Or snoop into this site's <a href="https://github.com/gabrielgruter/react-to-gabe" target="__blank">source code</a></p>
+            <p>Feel free to contact me anytime at:<br /><a href="mailto:contact@gabrielgruter.com">contact@gabrielgruter.com</a><br />Or snoop into this site's GitHub <a href="https://github.com/gabrielgruter/react-to-gabe" target="__blank">source code</a></p>
             <br />
         </div>
     )
