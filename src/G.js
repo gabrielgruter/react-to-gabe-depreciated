@@ -122,9 +122,10 @@ function DesktopPortfolioHome() {
                 <FlexView column vAlignContent='center'>
                     <a>Portfolio</a>
                     <h1>DESIGN BEAUTIFULLY. <br /> DEVELOP EFFICIENTLY.</h1>
-                    <p>Fullstack capability.<br />Extensive experience using Adobe Suite, React, Java, Visual Studio and more to carry a project all the way from conceptualisation to realisation.
+                    <p>Fullstack capability.<br />Extensive experience using Adobe Suite, React, Java, Visual Studio and more to carry a project all the way from conceptualisation to realisation.</p>
                     <br />
-                        <Link to={`portfolio`} style={readMore}>See Work...</Link></p>
+                    <a href="/portfolio.pdf" style={readMore}>Click here to see my portfolio</a>
+                    {/*<Link to={`portfolio`} style={readMore}>See Work...</Link>*/}
                 </FlexView>
             </section>
         </section>
